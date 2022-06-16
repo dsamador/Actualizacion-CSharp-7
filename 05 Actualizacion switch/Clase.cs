@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 namespace _05_Actualizacion_switch
 {
     public class Clase
-    {        
-        //uso de goto en switch
-        
-        public static void Metodo(int valor)
+    {             
+        public static void MetodoGoTo(int valor)
         {
             switch (valor)
             {
@@ -22,12 +20,41 @@ namespace _05_Actualizacion_switch
                     goto default;
                 case 3:
                     Console.WriteLine("tres");
-                    goto case 1;
-                case 4:
-                    Console.WriteLine("cuatro");
-                    break;
+                    goto case 1;                
                 default:
                     Console.WriteLine("En default");
+                    break;
+            }
+        }
+
+        public static void MetodoPatron(object valor)
+        {
+            switch (valor)
+            {
+                case int i:
+                    Console.WriteLine($"El entero vale {valor}");
+                    break;
+                case string s:
+                    Console.WriteLine("La cadena es" + s);
+                    break;
+                case double d:
+                    Console.WriteLine($"El doble vale {d}");
+                    break;
+                case null:
+                    Console.WriteLine("Es un null");
+                    break;
+            }
+        }
+
+        public static void MetodoWhen(object valor)
+        {
+            switch (valor)
+            {
+                case int i when i < 10:
+                    Console.WriteLine("El valor es menor a 10");
+                    break;
+                case int i:
+                    Console.WriteLine("El valor es mayor o igual a 10");
                     break;
             }
         }

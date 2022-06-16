@@ -3,4 +3,6 @@ using _05_Actualizacion_switch;
 
 int valor = 3;
 
-Clase.Metodo(valor);
+Clase.MetodoGoTo(valor);
+
+Clase.MetodoPatron(5.0);
