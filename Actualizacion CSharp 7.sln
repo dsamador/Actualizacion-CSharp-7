@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Ref Return", "04 Ref Ret
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Actualizacion switch", "05 Actualizacion switch\05 Actualizacion switch.csproj", "{21E080C5-F4A0-422D-8854-CE7F2E62FBE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Atualizacion a metodos", "06 Atualizacion a metodos\06 Atualizacion a metodos.csproj", "{2CF989A9-A3DF-4EFC-9CBE-D54886BF2867}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{21E080C5-F4A0-422D-8854-CE7F2E62FBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21E080C5-F4A0-422D-8854-CE7F2E62FBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21E080C5-F4A0-422D-8854-CE7F2E62FBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF989A9-A3DF-4EFC-9CBE-D54886BF2867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF989A9-A3DF-4EFC-9CBE-D54886BF2867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF989A9-A3DF-4EFC-9CBE-D54886BF2867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF989A9-A3DF-4EFC-9CBE-D54886BF2867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
