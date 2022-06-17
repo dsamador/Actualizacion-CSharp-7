@@ -1,6 +1,6 @@
 ﻿namespace _07_Deconstructor_y_destructor
 {
-    internal class Clase
+    public  class Clase
     {
         private string nombre;
         private int edad;
